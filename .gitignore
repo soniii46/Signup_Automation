@@ -1,0 +1,21 @@
+# Maven
+target/
+
+# TestNG / Reports
+test-output/
+reports/
+*.html
+
+# IntelliJ IDEA
+.idea/
+.settings/
+*.iml
+out/
+.classpath
+.project
+
+# Logs
+*.log
+
+# Environment variables
+.env
