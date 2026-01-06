@@ -1,0 +1,30 @@
+Automated Signup Test – Selenium
+Project Overview
+This project contains an automated end-to-end Signup test for a web application using Selenium WebDriver, TestNG, and Extent Reports.
+
+Tech Stack 
+Language & Frameworks
+-Java (JDK 11 or above)
+-Selenium WebDriver
+-TestNG (test framework)
+-Extent Reports (v5) – for HTML reporting
+-MailSlurp API – for OTP email handling
+-Jsoup – for parsing OTP from email HTML
+
+Prerequisites
+Before running the test, ensure:
+1. Java JDK 11+ is installed
+2. Maven is installed and configured
+3. Google Chrome browser is installed
+4. ChromeDriver is available in PATH
+5. Internet connection is available (for MailSlurp & application access)
+
+Environment Variables
+MailSlurp API Key
+For security reasons, the MailSlurp API key is not hardcoded.
+Set the API key as an environment variable:
+API Key: sk_nznAjjCJMe14rbz8_nwKZI9mtNfoWGlMZkKXiUHyOBOmkqCldB2ZWarDF4iN9fecZypeztP3PprfBuqDI
+Windows (PowerShell): setx MAILSLURP_API_KEY "your_api_key_here"
+
+
+
