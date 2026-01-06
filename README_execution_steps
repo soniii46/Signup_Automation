@@ -29,7 +29,7 @@ Environment Variables
 MailSlurp API Key
 For security reasons, the MailSlurp API key is not hardcoded.
 Set the API key as an environment variable:
-API Key: sk_nznAjjCJMe14rbz8_nwKZI9mtNfoWGlMZkKXiUHyOBOmkqCldB2ZWarDF4iN9fecZypeztP3PprfBuqDI
+API Key: sk_bwvJTWZfKjoyLk5D_OpV15IIcduK2etnMikj0XEfaIAUy1146T44SBpwRUhnRQfLFZePhmJI6pRRxrgc8
 Windows (PowerShell): setx MAILSLURP_API_KEY "your_api_key_here"
 
 How to Run the Test:
